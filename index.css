@@ -247,6 +247,7 @@ footer a {
     flex-direction: column;
     order: 2;
     margin-bottom: 8px;
+    padding: 7px;
   }
   .Content {
     display: flex;
