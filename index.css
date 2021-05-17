@@ -1,0 +1,267 @@
+html {
+  background-color: rgb(255, 255, 255);
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+li {
+  background-color: white;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.062);
+  min-width: 20%;
+  border-radius: 40px;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 6px;
+  margin-right: 40px;
+}
+li:hover {
+  transform: scale(1.1);
+  transition: 0.4s;
+}
+
+#main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 0px 10px;
+  grid-template-areas:
+    "Menu Content Content Content Photo-and-info"
+    "Menu Content Content Content Photo-and-info"
+    "Menu Content Content Content Photo-and-info"
+    "Menu Content Content Content Photo-and-info";
+}
+.Menu {
+  grid-area: Menu;
+  line-height: 4;
+  position: fixed;
+  background-color: white;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 20%;
+  border-radius: 20px;
+  margin-left: 4px;
+  float: left;
+}
+.Content {
+  grid-area: Content;
+  background-color: white;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 20px;
+  padding: 10px;
+  margin-left: 34px;
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+.Photo-and-info {
+  grid-area: Photo-and-info;
+  background-color: white;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 20px;
+  margin-right: 4px;
+  padding: 10px;
+  font-size: 16px;
+}
+#title {
+  background-color: white;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.062);
+  border-radius: 20px;
+  padding-left: 10px;
+}
+#titleright {
+  font-size: 16px;
+  text-align: center;
+}
+#iconmenu {
+  width: 70px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+#iconmenu:hover {
+  transform: scale(1.1);
+  transition: 0.4s;
+}
+
+#image {
+  max-width: 90%;
+  min-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 20px;
+  margin-top: 10px;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#img-caption {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 4px;
+}
+#img-div {
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.082);
+  border-radius: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+}
+.content-img {
+  border-radius: 10px;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.rightmenustyle {
+  background-color: white;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.082);
+  border-radius: 20px;
+  padding: 4px;
+  margin-top: 10px;
+}
+
+.rightmenustyle img {
+  padding-right: 8px;
+  margin-left: 4px;
+}
+.rightmenustyle:hover {
+  transform: scale(1.02);
+  transition: 0.1s ease-in-out;
+}
+.rightmenustylehelmet {
+  background-color: white;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.082);
+  border-radius: 20px;
+  padding: 4px;
+  margin-top: 10px;
+}
+.rightmenustylehelmet:hover {
+  transform: scale(1.2);
+  transition: 0.2s ease-in-out;
+}
+#f1bg {
+  background-color: #e10600;
+  color: white;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.082);
+  border-radius: 14px;
+  padding-bottom: 4px;
+  width: 80%;
+  padding: 4px;
+}
+#f1bg img {
+  vertical-align: middle;
+}
+#wecbg {
+  background-color: #002760;
+  color: white;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.082);
+  border-radius: 14px;
+  padding-bottom: 4px;
+  padding: 4px;
+  width: 80%;
+}
+#wecbg img {
+  vertical-align: middle;
+}
+#lemansbg {
+  background-color: #0071a5;
+  color: white;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.082);
+  border-radius: 14px;
+  padding-bottom: 4px;
+  padding-top: 4px;
+  padding: 4px;
+  width: 80%;
+}
+#lemansbg img {
+  vertical-align: middle;
+}
+footer {
+  background-color: white;
+  color: rgb(10, 10, 10);
+  text-align: center;
+  font-weight: 400;
+}
+footer a {
+  color: black;
+  text-transform: inherit;
+}
+/*Hover Effects of left menu */
+#minhov:hover {
+  background-color: rgb(56, 124, 187);
+  color: white;
+}
+#renhov:hover {
+  background-color: rgb(63, 90, 241);
+  color: white;
+}
+#mclhov:hover {
+  background-color: rgb(196, 196, 196);
+}
+#renhov2:hover {
+  background-color: rgb(248, 132, 54);
+}
+#ferhov:hover {
+  background-color: rgb(255, 77, 77);
+}
+#mclhov2:hover {
+  background-color: rgb(128, 128, 128);
+}
+#alphov:hover {
+  background-color: rgb(0, 127, 230);
+}
+
+@media (max-width: 650px) {
+  #main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .Menu {
+    display: none;
+    flex-direction: column;
+    line-height: 2;
+    height: 52vh;
+    width: 100%;
+    position: relative;
+    margin: 0px;
+    margin-bottom: 8px;
+  }
+
+  .Photo-and-info {
+    width: 97%;
+    display: flex;
+    flex-direction: column;
+    order: 2;
+    margin-bottom: 8px;
+    margin-right: 4px;
+  }
+  .Content {
+    display: flex;
+    flex-direction: column;
+    width: 97%;
+    margin-right: 4px;
+    margin-left: -2px;
+    order: 3;
+  }
+  #titleright {
+    background-color: white;
+    padding-left: 10px;
+    text-align: center;
+    font-size: 30px;
+  }
+  #image {
+    max-width: 80%;
+  }
+  #title {
+    display: none;
+  }
+}
