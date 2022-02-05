@@ -1,6 +1,6 @@
 html {
   background-color: rgb(255, 255, 255);
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
   overflow-x: hidden;
   max-width: 100%;
@@ -22,12 +22,12 @@ a {
 li {
   background-color: white;
   box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.062);
-  min-width: 20%;
-  border-radius: 40px;
+  border-radius: 20px;
   cursor: pointer;
   text-align: center;
   margin-top: 6px;
   margin-right: 40px;
+  height: 60px;
 }
 li:hover {
   transform: scale(1.1);
@@ -72,9 +72,9 @@ li:hover {
   background-color: white;
   box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 20px;
-  margin-right: 4px;
   padding: 10px;
   font-size: 16px;
+  height: 20%;
 }
 #title {
   background-color: white;
